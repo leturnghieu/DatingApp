@@ -11,6 +11,7 @@ namespace DatingApp.Models
         public Guid ProfileId { get; set; }
         [ForeignKey("User")]
         public Guid UserId { get; set; }
+        public User User { get; set; }
         [Required]
         public string Description { get; set; }
         [Required]

@@ -25,7 +25,7 @@ namespace DatingApp.Models
         [Required]
         public string Avata { get; set; }
         [Required]
-        public List<string> Images {  get; set; }
+        public string Images {  get; set; }
         [Required]
         public DateTime CreateAt { get; set; }
         [Required]
